@@ -22,6 +22,11 @@ footer {
     height: 200px;
 }
 
+#logo {
+    padding-top: 15px;
+    padding-left: 15px;
+    float: left;
+}
 
 nav {
     height: 100px;
