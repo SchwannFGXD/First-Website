@@ -58,3 +58,18 @@ document.getElementById("leaguedodgecalculator").addEventListener("mouseleave", 
     document.getElementById("leaguedodgecalculatortitle").style.color = 'black';
 
 });
+
+
+
+
+
+document.getElementById("gitcrossword").addEventListener("mouseover", function changeCrossGitnew() {
+    document.getElementById("gitcrossword").src = 'logo/githubhoverlogo.png'
+
+});
+
+document.getElementById("gitcrossword").addEventListener("mouseleave", function cchangeCrossGitold() {
+    document.getElementById("gitcrossword").src = 'logo/githublogo.png'
+
+});
+
