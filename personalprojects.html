@@ -8,6 +8,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/styleproject.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<header>
@@ -21,16 +22,86 @@
 
 		<main>
 
-			<section>
-				<p></p>
+			<section id="project">
+				<h2 id="projecttitle">Final Year Project</h2>
+				<p>
+					For my final year project in university, I optimised an object detection model using different Convolutional Neural Network (CNN) architectures. 
+					Object detection is the process of combining image classification, which predicts the type of object in an image, with object localisation, 
+					which locates objects within an image. 
+				</p>
+				<p>
+					CNNs are typically used for image classification so in this project, I used already well known CNN architectures 
+					as well as some that I developed myself. After concluding which CNN was the best, 
+					I would use it to develop the object detection model which was a Faster Region Based Convolutional Neural Network (Faster R-CNN).
+					3 variables were tested in this project: training method, training dataset size and the CNN architecture that was used. To measure the success of each CNN, 
+					the accuracy on a test dataset was used after training. 
+				</p>
+				<p>
+					The findings of this project were that more complex CNN architectures like AlexNet did well and had the highest accuracy of 87.67% .
+					However less complex architectures scored significantly less and within the 65%-75% range. 
+					The training methods showed very little impact but training dataset size had the most significant impact.
+					larger training datasets were better as shown by ALexNet which scored 87.67% when the dataset size 8000 images. However it only scored 67.38% when the dataset size was 400 images.  
+				</p>
+				<hr>
+
 			</section>
 
-			<section>
-				<p></p>
+			<section id="crossword">
+				<h2 id="crosswordtitle">Crossword puzzle creator and solver</h2>
+				<p>
+					This is a crossword puzzle game I previously created using Haskell. You can create a crossword puzzle by giving a list of words you want to find with any square size grid. 
+					The words will be hidden randomly within the grid and the other spaces will be filled with only characters that were contained within the initial list of words. 
+					On top of this, you can give a crossword puzzle and a list of words and the programme will locate all the words. 
+				</p>
+
+				<span>github <link rel="stylesheet" href=""></span>
+				<hr>
+
+			</section>
+
+			<section id="axecatcher">
+				<h2 id="axecatchertitle">Axe catcher game</h2>
+				<p>
+					This is a game I am currently developing where you control a warlord named Draven who has 2 axes. 
+					He hurls an axe at an enemy and it bounces back at him. The main aim of the game is to catch these axes as many times as you can. The game ends when you drop both your axes.
+					This game is coded in JavaScript and will become available here once finished. 
+				</p>
+				<hr>
+
+			</section>
+
+			<section id="leaguedodgecalculator">
+				<h2 id="leaguedodgecalculatortitle">Dodge calculator</h2>
+				<p>
+					There are many games where it is possible to calculate your chance of winning before the game has even started. 
+					Betting sites use this statistic to encourage people to bet. However there are some complex games where it is hard to calculate this statistic before the game begins. 
+					Especially multiplayer team games since there are now several factors and so the maths behind this is no longer something as simple as who has a higher win rate. 
+				</p>
+				<p>
+					Examples of these games are League Of Legends and Valorant which are 5v5 games where you pick a character before the game begins. 
+					For the casual player, you can see what character your teammates have picked as well as the enemies picks. You can also see who your teammates are but you cannot see who the enemy team are. 
+					You also have the option to "dodge" the game before it begins which means leave the game before it starts and only suffer a small penalty which some players would prefer if they believe that 
+					the outcome of the game will be a loss which would result in a larger penalty as well as wasted time. In professional play, there is no option to dodge but the players on the enemy team are known.
+				</p>
+				<p>		
+					A persons judgement on whether the outcome of the game is a win or loss can be used to potentially save time and mitigate the size of a penalty or for someone watching professional play, calculate the odds of a certain team winning.
+					Nowadays, it is easy to obtain statistics of players and characters online such as the win rates of each individual player, win rate of player on a specific character, win rate of character in general vs certain character etc.
+					There are many statistics available but a persons judgement is very limited as they cannot process all the information available efficiently.
+					However, a programme could easily give a summary based on all the statistics made available before the game starts. That is the purpose of this dodge calculator that I am currently creating using Python.
+					It will use various statistics to calculate the probability of who will win. In the end, even if a team is calculated to have a 30% chance of winning, it is up to the user to make the final judgement on whether they think those odds are good enough to go through with.
+				</p>
+				<hr>
+
 			</section>
 		</main>
 
-		<footer></footer>
+		<footer>
+			
+			<span>
+				&copy; Copyright 2022 Shawn Augustine
+			</span>
+		</footer>
+		<script src="js/project.js"></script>
 
 	</body>
 </html>

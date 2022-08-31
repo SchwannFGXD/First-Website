@@ -21,6 +21,9 @@ header, footer{
 footer {
     height: 200px;
 }
+span{
+    margin-left: calc(50% - 120px);
+}
 
 #logo {
     padding-top: 15px;
@@ -73,7 +76,7 @@ nav > a{
     width: 50%;
     background-color: rgb(255, 215, 65);
     float: left;
-    border: 1px solid black;
+
 
 
 }

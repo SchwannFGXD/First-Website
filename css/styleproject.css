@@ -22,6 +22,10 @@ footer {
     height: 200px;
 }
 
+span{
+    margin-left: calc(50% - 120px);
+}
+
 #logo {
     padding-top: 15px;
     padding-left: 15px;
@@ -61,13 +65,32 @@ nav > a{
 
 section{
     width: 80%;
-    height: 700px;
+    height: auto;
     margin-right:auto;
     margin-left:auto;
     background-color: rgb(255, 215, 65);
+    border: 1px solid rgb(255, 215, 65);
 
 }
+h2 {
+    width: 400px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: calc(50% - 200px);
+    text-align: center;
+}
 
+p{
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+hr{
+    margin-top: 50px;
+    width: 70%;
+    border: 1px solid black;
+}
 @media only screen and (max-width:1500px){
     nav {
         width: 40%;
