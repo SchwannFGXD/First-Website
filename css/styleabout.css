@@ -97,10 +97,11 @@ h3{
 }
 
 #interestsection{
-    height: 600px;
+    height: 300px;
     width: 80%; 
     margin-right:auto;
     margin-left:auto;
+    background-color: rgb(255, 215, 65);
 }
 
 
@@ -109,11 +110,35 @@ h3{
     width: 33.3333%;  
     background-color: rgb(255, 215, 65);
     float: left;
-    border: 1px solid black;
 
 
 }
 
+#interestsection>#aisection{
+    background-image: url(../logo/ailogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#aisection:hover{
+    background-image:url(../logo/aihoverlogo.png);
+}
+
+#interestsection>#gamessection{
+    background-image: url(../logo/gamelogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+#interestsection>#artsection{
+    background-image: url(../logo/artlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
 @media only screen and (max-width:1500px){
     nav {
@@ -144,16 +169,30 @@ h3{
         height: 500px;
         width: 100%;
     }
-    
+    #interestsection{
+        height: 600px;
+    }
+
     #interestsection> section{
         width: 50%;  
+    }
+    #interestsection>#artsection{
+        margin-left: 25%;
+        margin-right: 25%;
     }
        
 }
 
 @media only screen and (max-width:500px){
+    #interestsection{
+        height: 900px;
+    }
     #interestsection> section{
         width: 100%;  
+    }
+    #interestsection>#artsection{
+        margin-left: 0%;
+        margin-right: 0%;
     }
    
     
