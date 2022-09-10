@@ -19,43 +19,54 @@ document.getElementById("personalprojects").addEventListener("mouseleave", () =>
 
 });
 
-
-
-
-document.getElementById("aisection").addEventListener("mouseover", function changeAInew() {
-    document.getElementById("aisection").style.backgroundImage = 'url(logo/aihoverlogo.png)';
-    document.getElementById("aitext").style.fontSize = "20px";
+document.getElementById("linksection").addEventListener("mouseover", () => {
+    document.getElementById("linktitle").style.color = 'rgb(0, 162, 232)';
 
 });
 
-document.getElementById("aisection").addEventListener("mouseleave", function changeAIold() {
-    document.getElementById("aisection").style.backgroundImage = 'url(logo/ailogo.png)';
-    document.getElementById("aitext").style.fontSize = "0px";
+document.getElementById("linksection").addEventListener("mouseleave", () => {
+    document.getElementById("linktitle").style.color = 'white';
 
 });
 
-document.getElementById("gamessection").addEventListener("mouseover", function changeGamenew() {
-    document.getElementById("gamessection").style.backgroundImage = 'url(logo/gamehoverlogo.png)';
-    document.getElementById("gametext").style.fontSize = "20px";
+document.getElementById("achievementssection").addEventListener("mouseover", () => {
+    document.getElementById("achievementstitle").style.color = 'rgb(0, 162, 232)';
 
 });
 
-document.getElementById("gamessection").addEventListener("mouseleave", function changeGameold() {
-    document.getElementById("gamessection").style.backgroundImage = 'url(logo/gamelogo.png)';
-    document.getElementById("gametext").style.fontSize = "0px";
-
-});
-document.getElementById("artsection").addEventListener("mouseover", function changeArtnew() {
-    document.getElementById("artsection").style.backgroundImage = 'url(logo/arthoverlogo.png)';
-    document.getElementById("arttext").style.fontSize = "20px";
+document.getElementById("achievementssection").addEventListener("mouseleave", () => {
+    document.getElementById("achievementstitle").style.color = 'black';
 
 });
 
-document.getElementById("artsection").addEventListener("mouseleave", function changeArtold() {
-    document.getElementById("artsection").style.backgroundImage = 'url(logo/artlogo.png)';
-    document.getElementById("arttext").style.fontSize = "0px";
+document.getElementById("interestsection").addEventListener("mouseover", () => {
+    document.getElementById("interesttitle").style.color = 'rgb(0, 162, 232)';
+
+});
+
+document.getElementById("interestsection").addEventListener("mouseleave", () => {
+    document.getElementById("interesttitle").style.color = 'black';
 
 });
 
 
 
+document.getElementById("githublink").addEventListener("mouseover", function changeArtGitnew() {
+    document.getElementById("githublink").src = 'logo/githubhoverlink.png'
+
+});
+
+document.getElementById("githublink").addEventListener("mouseleave", function changeArtGitold() {
+    document.getElementById("githublink").src = 'logo/githublink.png'
+
+});
+
+document.getElementById("artinstagram").addEventListener("mouseover", function changeArtInstnew() {
+    document.getElementById("artinstagram").src = 'logo/instagramhoverlogo.png'
+
+});
+
+document.getElementById("artinstagram").addEventListener("mouseleave", function changeArtInstold() {
+    document.getElementById("artinstagram").src = 'logo/instagramlogo.png'
+
+});
