@@ -208,8 +208,8 @@ p + a{
 
 @media only screen and (max-width:500px){
     nav {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        width: calc(100% - 110px);
+        float: right;
     }
+
 }
