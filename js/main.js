@@ -19,6 +19,20 @@ document.getElementById("personalprojects").addEventListener("mouseleave", () =>
 
 });
 
+
+
+document.getElementById("shawndescription").addEventListener("mouseover", () => {
+    document.getElementById("shawnname").style.color = 'rgb(0, 162, 232)';
+
+});
+
+document.getElementById("shawndescription").addEventListener("mouseleave", () => {
+    document.getElementById("shawnname").style.color = 'black';
+
+});
+
+
+
 document.getElementById("linksection").addEventListener("mouseover", () => {
     document.getElementById("linktitle").style.color = 'rgb(0, 162, 232)';
 
@@ -28,6 +42,18 @@ document.getElementById("linksection").addEventListener("mouseleave", () => {
     document.getElementById("linktitle").style.color = 'white';
 
 });
+
+document.getElementById("githublink").addEventListener("mouseover", function changeArtGitnew() {
+    document.getElementById("githublink").src = 'logo/githubhoverlink.png'
+
+});
+
+document.getElementById("githublink").addEventListener("mouseleave", function changeArtGitold() {
+    document.getElementById("githublink").src = 'logo/githublink.png'
+
+});
+
+
 
 document.getElementById("achievementssection").addEventListener("mouseover", () => {
     document.getElementById("achievementstitle").style.color = 'rgb(0, 162, 232)';
@@ -39,6 +65,8 @@ document.getElementById("achievementssection").addEventListener("mouseleave", ()
 
 });
 
+
+
 document.getElementById("interestsection").addEventListener("mouseover", () => {
     document.getElementById("interesttitle").style.color = 'rgb(0, 162, 232)';
 
@@ -46,18 +74,6 @@ document.getElementById("interestsection").addEventListener("mouseover", () => {
 
 document.getElementById("interestsection").addEventListener("mouseleave", () => {
     document.getElementById("interesttitle").style.color = 'black';
-
-});
-
-
-
-document.getElementById("githublink").addEventListener("mouseover", function changeArtGitnew() {
-    document.getElementById("githublink").src = 'logo/githubhoverlink.png'
-
-});
-
-document.getElementById("githublink").addEventListener("mouseleave", function changeArtGitold() {
-    document.getElementById("githublink").src = 'logo/githublink.png'
 
 });
 

@@ -21,7 +21,7 @@ header, footer{
 footer {
     height: 200px;
 }
-span{
+footer> span{
     margin-left: calc(50% - 120px);
 }
 
@@ -75,6 +75,32 @@ nav > a{
     background-color: rgb(255, 215, 65);
     float: left;
 }
+
+#shawndescription>h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 40px;
+}
+#shawndescription> p{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#shawndescription>#role{
+    font-size: 30px;
+}
+
+#email{
+    color:rgb(0, 162, 232);
+}
+
 
 #linksection{
     width: 80%;
@@ -164,6 +190,19 @@ p + a{
     #firstsection > section{
         height: 500px;
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    #firstsection {
+        height: 1200px;
+    }
+    #firstsection > section{
+        height: 600px;
+
+    }
+    #shawndescription> p{
+    width: 90%;
     }
 }
 
