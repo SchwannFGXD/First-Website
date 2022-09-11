@@ -211,5 +211,8 @@ p + a{
         width: calc(100% - 110px);
         float: right;
     }
+    #personalprojects{
+        margin-right: 10px;
+    }
 
 }
